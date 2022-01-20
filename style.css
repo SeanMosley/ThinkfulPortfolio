@@ -1,0 +1,72 @@
+html {
+  background-color: tan; /* changing my background color of whole page */
+}
+
+p {
+  font-family: Arial;
+  text-align: center; /* centering the text*/
+  line-height: 50px; /* the lines in my paragpraphs were too close so I spaced them out using line-height*/
+  margin-bottom: 30px;
+  font-size: 20px; /* changed the font size*/
+}
+
+h1 {
+  text-align: center; /* centering the text*/
+  font-size: 45px;
+  font-family: Arial;
+  background-color: coral;
+}
+
+h2 {
+  text-align: center; /* centering the text*/
+  font-size: 40px;
+  font-family: Arial;
+}
+
+li {
+  text-align: center; /* centering the text*/
+  line-height: 32px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+ol {
+  text-align: center; /* centering the text*/
+  list-style-position: inside; /* I used the list-style-positin because the markers were still on the outside and I wanted to move them to the inside next to the list elements*/
+}
+
+ul {
+  text-align: center; /* centering the text*/
+  list-style-position: inside;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.height {
+  height: 300px; /* I have used the height property for the second and third picture on my website giving them both the class named height*/
+}
+
+hr {
+  padding: 5px 10px 15px 20px;
+}
+
+footer {
+  text-align: center; /* centering the text*/
+  font-size: 25px;
+  font-family: Arial;
+  background-color: coral;
+}
+
+a {
+  color: black; /* using the color property to change my links to black*/
+}
+
+a:hover {
+  color: green; /* pseudo class link changing the color to green when hovered over*/
+}
